@@ -30,7 +30,7 @@ namespace ConsoleUI
             car.Description = aciklama;
             car.BrandId = 1;  // default olarak. şimdilik
             car.ColorId = 1; // default olarak. şimdilik
-            carManager.Add(car);
+            carManager.AddACar(car);
 
 
 

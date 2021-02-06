@@ -14,7 +14,7 @@ namespace Business.Abstract
         /// </summary>
         /// <returns>Araba listesi döndürür.</returns>
         List<Car> GetAll();
-        void Add(Car car);
+        void AddACar(Car car);
         List<Car> GetByColorId(int id);
         List<Car> GetByBrandId(int id);
 
